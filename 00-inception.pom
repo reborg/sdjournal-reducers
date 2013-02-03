@@ -1,0 +1,9 @@
+background material or bibliographical references:
+	- announce http://clojure.com/blog/2012/05/08/reducers-a-library-and-model-for-collection-processing.html
+	- detailed blog http://clojure.com/blog/2012/05/15/anatomy-of-reducer.html
+	- Haskell iteratee http://www.haskell.org/haskellwiki/Enumerator_and_iteratee
+	- foldr considered harmful guy stele presentation
+	- the beginner's intro to fork join http://homes.cs.washington.edu/~djg/teachingMaterials/grossmanSPAC_forkJoinFramework.html
+
+source code:
+	- clojure source of reducers is available here ./src/clj/clojure/core/reducers.clj with related small testing
