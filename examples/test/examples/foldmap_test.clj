@@ -18,6 +18,6 @@
 
 (facts "why always reduce? I can have foldmap for map/filter operations"
        (fact "the same logic of fold can operate on maps in parallel"
-             (last (foldmap (vec (range 1000)) (/ 1000 4) #(* % %))) => 998001)
-       (fact "I can compose multiple maps at leafs processing"
-             (foldmap (composer [1 2 3] (filtering even?)) 2 #(* % %)) => 998001))
+             (last (foldmap (vec (range 1000)) (/ 1000 4) #(* % %))) => 998001))
+       ;(fact "I can compose multiple maps at leafs processing"
+       ;      (foldmap (composer [1 2 3] (filtering even?)) 2 #(* % %)) => 998001))
